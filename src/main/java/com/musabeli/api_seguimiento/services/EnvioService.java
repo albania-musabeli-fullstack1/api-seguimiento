@@ -2,11 +2,13 @@ package com.musabeli.api_seguimiento.services;
 
 import com.musabeli.api_seguimiento.models.Envio;
 import com.musabeli.api_seguimiento.models.MensajeError;
+import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
+@Service
 public class EnvioService {
 
     private List<Envio> envioList = new ArrayList<>();
